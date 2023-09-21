@@ -8,7 +8,7 @@ on:
   push:
     branches: [ "features-ghi" ] 
               [ "features-xyz" ]
-    except  "features-abc"
+    branches-ignore:  "features-abc"
  pull_request:
     branches: [ "features-abc" ]
 
