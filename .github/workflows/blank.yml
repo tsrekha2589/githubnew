@@ -8,7 +8,8 @@ on:
   push:
          branches-ignore: ["features-abc"]
   
- 
+ pull:
+       branches : ["features-abc"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
